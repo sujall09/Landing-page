@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Logo } from './index';
+import { Logo } from './images';
 import { HiMenu, HiX } from 'react-icons/hi';
 
 function Navbar() {
