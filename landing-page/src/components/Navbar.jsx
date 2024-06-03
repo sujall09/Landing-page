@@ -11,10 +11,10 @@ function Navbar() {
 
     return (
         <navbar className="bg-white  w-full dark:bg-slate-900">
-            <div className="container mx-auto px-20 py-4 flex justify-between items-center">
+            <div className="container mx-auto  px-10 md:px-20 py-4 flex justify-between md:justify-between items-center ">
                 <div className="flex items-center gap-3">
-                    <div className="logo flex items-center dark:text-white font-extrabold gap-1 text-2xl cursor-pointer">
-                        <img src={Logo} alt="Logo" className="h-8 w-8" />
+                    <div className="logo flex items-center dark:text-white font-extrabold gap-1 text-xl md:2xl cursor-pointer">
+                        <img src={Logo} alt="Logo" className="h-5 w-5 md:h-8 md:w-8" />
                         uifry
                     </div>
                     <div className="hidden md:flex items-center space-x-6">
@@ -25,7 +25,7 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="flex items-center">
-                    <button className="bg-black text-white py-2 px-7 rounded text-sm hover:bg-gray-800 transition duration-300">
+                    <button className="bg-black  text-white py-1 px-4 md:px-7 md:py-2 rounded text-[10px] md:text-sm hover:bg-gray-800 transition duration-300">
                         Download
                     </button>
                     <div className="md:hidden ml-4">

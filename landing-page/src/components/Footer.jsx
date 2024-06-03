@@ -20,7 +20,7 @@ function Footer() {
     return (
         <div className='w-full mt-24 py-8 px-2 pl-10 bg-gray-100 dark:bg-slate-900'>
             <div className='max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-6 gap-8 border-b-2 border-gray-600 py-8'>
-                <ul className='col-span-2 md:col-span-1'>
+                <ul className='col-span-2   md:col-span-1'>
                     <li className='flex items-center font-bold text-xl text-black dark:text-white'>
                         <img src={Logo} alt="logo" className='w-5 mr-2' />
                         Uifry

@@ -32,13 +32,13 @@ function Header() {
                         </div>
                         <img src={Star} alt="" className='absolute top-0 right-0' />
                     </div>
-                    <div className="bottom  ">
+                    <div className="bottom  hidden md:block">
                         <img src={Bottom} alt="bottom" className="w-[30vw] h-full mx-auto mr-20" />
                     </div>
 
                 </div>
 
-                <div className=" relative  h-[100vh] w-[50%] mr-10">
+                <div className=" relative hidden md:block h-[100vh] w-[50%] mr-10">
                     <img src={Mobile1} className='w-[30vw] z-10 absolute top-10 -right-20' />
                     <img src={Mobile2} className='w-[30vw] z-10 absolute top-15 -right-2' />
                     <img src={Mobile3} className='w-[25vw] z-10 absolute -top-10 left-20' />

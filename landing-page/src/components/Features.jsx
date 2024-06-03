@@ -11,7 +11,7 @@ function Features() {
             <div className="right flex flex-col justify-center md:w-1/2">
                 <div className="heading mb-5">
                     <h5 className='text-customRed font-semibold text-xl mb-2'>FEATURES</h5>
-                    <h2 className='text-4xl font-extrabold mb-5'>Uifry Premium</h2>
+                    <h2 className='text-4xl font-extrabold mb-5 dark:text-white'>Uifry Premium</h2>
                 </div>
                 <div className="features flex flex-col gap-5">
                     <div className="feature flex flex-col mb-4">
